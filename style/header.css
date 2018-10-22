@@ -1,0 +1,87 @@
+.header {
+    overflow: hidden;
+    background-color: #2f364a;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+    z-index: 1;
+}
+
+.header a {
+    float: left;
+    color: #78829d;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-family: Arial, sans-serif;
+    font-size: small;
+    line-height: 18px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+
+.header a:hover {
+    background-color: #15a4fa;
+    color: white;
+}
+
+.header a.active {
+    width: 170px;
+
+}
+
+.nav-header {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+
+.logo-icon {
+    color: #78829d;
+    margin-left: 180px;
+    margin-top: 10px;
+    line-height: 12px;
+
+}
+
+.logo {
+    margin-left: 200px;
+    color: #78829d;
+    font-family: Arial, sans-serif;
+    margin-top: -14px;
+    font-size: small;
+    line-height: 10px;
+}
+.dots {
+    margin-left: 10px;
+    line-height: 10px;
+}
+
+.dot {
+    height: 10px;
+    width: 10px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.dot-red {
+    background-color: #e76847;
+}
+
+.dot-yellow {
+    background-color: #fabf00;
+}
+
+.dot-green {
+    background-color: #52bea6;
+}
+.dot-black {
+    background-color: #19202e;
+    width: 4px !important;
+    height: 4px !important;
+}
